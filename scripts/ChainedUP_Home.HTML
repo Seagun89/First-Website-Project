@@ -8,85 +8,146 @@
     <title>Chained Up HomePage</title>
 </head>
 <body>
-    <!--Demon Slayer keychains img-->
-    <img src="/images/download.jpeg" id="top" alt="image of demonslayer keychains">
-    <!--Online Company itle-->
-    <h1>Chained UP</h1>
-
-    <!--Sign Up-->
-    <button><a href="Sign_Up.HTML">Sign Up</a></button>
-    <br>
-    <br>
-
-    <!--Search Bar-->
-    <form action="" method="">
-        <input type="text" name="name" id="">
-        <br>
-        <input type="submit">
-    </form>
-
-    <!--What we sell...so far-->
-    <h2>KeyChains</h2>
-
-    <!--Customize shopping-->
-    <h3>Shop By</h3>
-    <!--Using input of type checkbox and onchange to switch to appropriate HTML page-->
-    <!--Shop by Manufacturer-->
-    <h3>Manufacturer</h3>
-    <input type="checkbox" name="Nintendo" onchange="window.location.href=''" id="">Nintendo
-    <br>
-    <input type="checkbox" name="Nickalodeon" onchange="window.location.href=''" id="">Nickalodeon
-    <br>
-    <input type="checkbox" name="CartoonNetwork" onchange="window.location.href=''" id="">CartoonNetwork
-    <br>
-    <input type="checkbox" name="CrunchyRoll" onchange="window.location.href=''" id="">CrunchyRoll
-    <br>
-    <input type="checkbox" name="Ghibli" onchange="window.location.href=''" id="">Ghibli
-
-    <!--Shop by Shows-->
-    <h3>Shows</h3>
-    <input type="checkbox" name="Anime KeyChains" id="" onchange="window.location.href='Anime_KeyChains.HTML'">Anime KeyChains
-    <br>
-    <input type="checkbox" name="Marvel KeyChains" onchange="window.location.href=''" id="">Marvel KeyChains
-    <br>
-    <input type="checkbox" name="DC KeyChains" onchange="window.location.href=''" id="">DC KeyChains
-    <br>
-    <input type="checkbox" name="StarWars KeyChains" onchange="window.location.href=''" id="">StarWars KeyChains
-    <br>
-    <input type="checkbox" name="Cartoon KeyChains" onchange="window.location.href='Cartoon_KeyChains.HTML'" id="">Cartoon KeyChains
-    
-    <!--Show by Video Games-->
-    <h3>Video Games</h3>
-    <input type="checkbox" name="Sonic" onchange="window.location.href=''" id="">Sonic
-    <br>
-    <input type="checkbox" name="Super Mario Bros." onchange="window.location.href=''" id="">Super Mario Bros.
-    <br>
-    <input type="checkbox" name="Kirby" onchange="window.location.href=''" id="">Kirby
-    <br>
-    <input type="checkbox" name="League of Legends" onchange="window.location.href=''" id="">League of Legends
-    <br>
-    <input type="checkbox" name="Valorant" onchange="window.location.href=''" id="">Valorant
-    <br>
-    <input type="checkbox" name="Pokemon" onchange="window.location.href=''" id="">Pokemon
-    <br>
-    <input type="checkbox" name="Legend of Zelda" onchange="window.location.href=''" id="">Legend of Zelda
-
-    <!--Shop by Availability-->
-    <h3>Availability</h3>
-    
-        <input type="checkbox" name="InStock" onchange="window.location.href=''" id="">InStock
-        <br>
-        <input type="checkbox" name="Out of Stock" onchange="window.location.href=''" id="">Out of Stock
-    
-    <!--About Us Text-->
-    <h5>About Us</h5>
-    <h6>Pass</h6>
-    <!--Contact Us Text-->
-    <h5>Contact Us</h5>
-    <h6>Pass</h6>
-    <!--The copyright-->
-    <h5>&copy;ChainedUP.com</h5>
-    <!--Hyper link ref to the top id (image:DS)-->
-    <a href="#top">Return to top</a>
+    <div class="header-container">
+        <div class="header-image">
+            <!--Demon Slayer keychains img-->
+            <img src="/images/ds.jpeg" id="top" alt="image of demonslayer keychains">
+        </div>
+        <div class="header-title">
+            <!--Online Company title-->
+            <h1>Chained UP</h1>
+        </div>
+        <div class="header-signup-button">
+            <!--Sign Up-->
+            <button><a href="Sign_Up.HTML">Sign Up</a></button>
+            <br>
+            <br>
+        </div>
+        <div class="header-searchbar">
+            <!--Search Bar-->
+            <form action="" method="">
+                <input type="text" name="name" id="">
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="main-container-title">
+            <!--What we sell...so far-->
+            <h2>KeyChains</h2>
+        </div>
+    </div>
+    <div class="left-container">
+        <div class="left-container-customize-shopping">
+            <!--Customize shopping-->
+            <div class="left-container-header">
+                <h3>Shop By</h3>
+            </div>
+            <div class="left-container-shop-by-manufacturer">
+                <!--Using input of type checkbox and onchange to switch to appropriate HTML page-->
+                <!--Shop by Manufacturer-->
+                <div class="maunfacturer-title">
+                    <h3>Manufacturer</h3>
+                </div>
+                <div class="manufacturer-choices">
+                    <input type="checkbox" name="Nintendo" onchange="window.location.href='Nintendo_KeyChains.HTML'" id="">Nintendo
+                    <br>
+                    <input type="checkbox" name="Nickelodeon" onchange="window.location.href='Nickelodeon_KeyChains.HTML'" id="">Nickelodeon
+                    <br>
+                    <input type="checkbox" name="CartoonNetwork" onchange="window.location.href='CartoonNet_KeyChains.HTML'"
+                        id="">CartoonNetwork
+                    <br>
+                    <input type="checkbox" name="CrunchyRoll" onchange="window.location.href='CrunchyRoll_KeyChains.HTML'" id="">CrunchyRoll
+                    <br>
+                    <input type="checkbox" name="Ghibli" onchange="window.location.href='Ghibli_KeyChains.HTML'" id="">Ghibli
+                </div>
+            </div>
+            <div class="left-container-shop-by-shows">
+                <!--Shop by Shows-->
+                <div class="shows-title">
+                    <h3>Shows</h3>
+                </div>
+                <div class="shows-choices">
+                    <input type="checkbox" name="Anime KeyChains" id="" onchange="window.location.href='Anime_KeyChains.HTML'">Anime
+                    KeyChains
+                    <br>
+                    <input type="checkbox" name="Marvel KeyChains" onchange="window.location.href='Marvel_KeyChains.HTML'" id="">Marvel
+                    KeyChains
+                    <br>
+                    <input type="checkbox" name="DC KeyChains" onchange="window.location.href='DC_KeyChains.HTML'" id="">DC KeyChains
+                    <br>
+                    <input type="checkbox" name="StarWars KeyChains" onchange="window.location.href='StarWars_KeyChains.HTML'"
+                        id="">StarWars KeyChains
+                    <br>
+                    <input type="checkbox" name="Cartoon KeyChains" onchange="window.location.href='Cartoon_KeyChains.HTML'" id="">Cartoon
+                    KeyChains
+                </div>
+            </div>
+            <div class="left-container-shop-by-videogames">
+                <!--Show by Video Games-->
+                <div class="videogames-title">
+                    <h3>Video Games</h3>
+                </div>
+                <div class="videogames-choices">
+                    <input type="checkbox" name="Sonic" onchange="window.location.href='Sonic_KeyChains.HTML'" id="">Sonic
+                    <br>
+                    <input type="checkbox" name="Super Mario Bros." onchange="window.location.href='SuperMarioBros_KeyChains.HTML'"
+                        id="">Super Mario Bros.
+                    <br>
+                    <input type="checkbox" name="Kirby" onchange="window.location.href='Kirby_KeyChains.HTML'" id="">Kirby
+                    <br>
+                    <input type="checkbox" name="League of Legends" onchange="window.location.href='LeagueofLegends_KeyChains.HTML'"
+                        id="">League of Legends
+                    <br>
+                    <input type="checkbox" name="Valorant" onchange="window.location.href='Valorant_KeyChains.HTML'" id="">Valorant
+                    <br>
+                    <input type="checkbox" name="Pokemon" onchange="window.location.href='Pokemon_KeyChains.HTML'" id="">Pokemon
+                    <br>
+                    <input type="checkbox" name="Legend of Zelda" onchange="window.location.href='LegendofZelda_KeyChains.HTML'"
+                        id="">Legend of Zelda
+                </div>
+            </div>
+            <div class="left-container-shop-by-availability">
+                <!--Shop by Availability-->
+                <div class="availability-title">
+                    <h3>Availability</h3>
+                </div>
+                <div class="availability-choices">
+                    <input type="checkbox" name="InStock" onchange="window.location.href=''" id="">InStock
+                    <br>
+                    <input type="checkbox" name="Out of Stock" onchange="window.location.href=''" id="">Out of Stock
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <div class="about-us">
+            <!--About Us Text-->
+            <div class="about-us-title">
+                <h5>About Us</h5>
+            </div>
+            <div class="about-us-info">
+                <h6>Pass</h6>
+            </div>
+        </div>
+        <div class="contact-us">
+            <!--Contact Us Text-->
+            <div class="contact-us-title">
+                <h5>Contact Us</h5>
+            </div>
+            <div class="contact-us-info">
+                <h6>Pass</h6>
+            </div>
+        </div>
+        <div class="copyright">
+            <!--The copyright-->
+            <h5>&copy;ChainedUP.com</h5>
+        </div>
+        <div class="link-top-page">
+            <!--Hyper link ref to the top id (image:DS)-->
+            <a href="#top">Return to top</a>
+        </div>
+    </div>
 </body>
 </html>
